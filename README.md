@@ -1,19 +1,17 @@
 # Web3j demo with Java
 How to:
-- Deploy a very simple stmart contract to the ethereum test network (Goerli)
+- Deploy a very simple smart-contract to the ethereum test network (Goerli)
 - Interact with the services available for the deployed smartcontract.
 
-
-## three-steps
 ==============================================
 
-## Step #1
+## Step #1 - Environment
 Prepare your environment, locally and in the cloud.
 
 You will need:
 - MetaMask Account
 - Etherscan Account
-- Goerli testnet with with some ethers which can be added throughtout - https://goerlifaucet.com/
+- Goerli testnet with with some ethers to enable you to execute transations
 - Alchemy Account
 
 ### Tech stack
@@ -21,21 +19,20 @@ You will need:
 - Maven 3.8.6
 - Web3j 4.9.4
 
-## Step #2
-Change the  values of the web3jdemo.properties:
+Change the values of the web3jdemo.properties:
 - API_URL and PRIVATE_KEY, check how to on the file
 
-## Step #3
+## Step #2 - Execution
 Run the following maven command:
 #### mvn exec:exec
 
-Expected result:
-#####The Block Number is: 8223706
-#####Deploying contract Hello World...
-#####Contract deployed to address: 0x63f56ff6cca76925de71815099f1eba0c1a01c38
-#####Message: Hello World v1!
-#####Updating message...
-#####The new message: I am back.
+Example of the expected result:
+##### The Block Number is: 8223706 
+##### Deploying contract Hello World...
+##### Contract deployed to address: 0x63f56ff6cca76925de71815099f1eba0c1a01c38
+##### Message: Hello World v1!
+##### Updating message...
+##### The new message: I am back.
 
 
 # Some References
