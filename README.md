@@ -1,7 +1,7 @@
 # Web3j demo with Java
 How to:
-- Deploy a very simple smart-contract to the ethereum test network (Goerli)
-- Interact with the services available for the deployed smartcontract.
+- Deploy a very simple smart-contract to the Ethereum test network (Goerli)
+- Interact with the services available on the deployed smart-contract.
 
 ==============================================
 
@@ -11,7 +11,7 @@ Prepare your environment, locally and in the cloud.
 You will need:
 - MetaMask Account
 - Etherscan Account
-- Goerli testnet with with some ethers to enable you to execute transations
+- Goerli testnet with some ethers to enable you to execute transactions
 - Alchemy Account
 
 ### Tech stack
