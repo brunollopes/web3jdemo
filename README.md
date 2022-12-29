@@ -19,7 +19,7 @@ You will need:
 - Maven 3.8.6
 - Web3j 4.9.4
 
-Change the values of the web3jdemo.properties:
+Change the values of the [web3jdemo.properties](src/main/resources/web3jdemo.properties):
 - API_URL and PRIVATE_KEY, check how to on the file
 
 ## Step #2 - Execution
