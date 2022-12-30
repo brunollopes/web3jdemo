@@ -1,6 +1,5 @@
 package com.noname.web3jdemo.contracts;
 
-import com.noname.web3jdemo.util.Properties;
 import org.web3j.model.HelloWorld;
 
 import static com.noname.web3jdemo.Application.*;

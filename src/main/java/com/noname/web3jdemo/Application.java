@@ -4,17 +4,12 @@ import com.noname.web3jdemo.contracts.DeployContract;
 import com.noname.web3jdemo.contracts.InteractContract;
 import com.noname.web3jdemo.util.Properties;
 import org.web3j.crypto.Credentials;
-import org.web3j.model.HelloWorld;
 import org.web3j.protocol.Web3j;
-import org.web3j.protocol.core.RemoteCall;
 import org.web3j.protocol.core.methods.response.EthBlockNumber;
 import org.web3j.protocol.http.HttpService;
 import org.web3j.tx.gas.StaticGasProvider;
 
 import java.math.BigInteger;
-
-import static java.lang.System.exit;
-import static java.lang.System.out;
 
 public class Application {
 
