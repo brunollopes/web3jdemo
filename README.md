@@ -22,9 +22,7 @@ You will need:
 
 ## Step #2 - Create smart-contract and auto-generate Java code
 1) Using your favorite IDE create the smart-contract: [HelloWorld.sol](src/main/resources/contracts/hello_world.sol) using Solidity language <br>
-2) Compile the contract using the command: <br>
-solc -o src/main/resources/contracts --abi --bin src/main/resources/contracts/hello_world.sol <br>
-For that first install Solidity on your system
+2) Run maven command: mvn web3j:generate-sources
 
 Change the values of the [web3jdemo.properties](src/main/resources/web3jdemo.properties):
 - API_URL and PRIVATE_KEY, check how to on the file
