@@ -18,6 +18,13 @@ You will need:
 - Java 17
 - Maven 3.8.6
 - Web3j 4.9.4
+- Solidity v0.8.17
+
+## Step #2 - Create smart-contract and auto-generate Java code
+1) Using your favorite IDE create the smart-contract: [HelloWorld.sol](src/main/resources/contracts/HelloWorld.sol) using Solidity language <br>
+2) Compile the contract using the command: <br>
+solc -o src/main/resources/contracts --abi --bin src/main/resources/contracts/HelloWorld.sol <br>
+For that first install Solidity on your system
 
 Change the values of the [web3jdemo.properties](src/main/resources/web3jdemo.properties):
 - API_URL and PRIVATE_KEY, check how to on the file
@@ -37,6 +44,7 @@ Example of the expected result:
 
 # Some References
 
+- Solidity @ https://docs.soliditylang.org/en/v0.8.17/
 - Goerli @ https://goerli.net/
 - Etherscan @ https://en.wikipedia.org/wiki/Schnorr_group
 - Goerli Etherscan @ https://goerli.etherscan.io/
