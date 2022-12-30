@@ -21,9 +21,9 @@ You will need:
 - Solidity v0.8.17
 
 ## Step #2 - Create smart-contract and auto-generate Java code
-1) Using your favorite IDE create the smart-contract: [HelloWorld.sol](src/main/resources/contracts/HelloWorld.sol) using Solidity language <br>
+1) Using your favorite IDE create the smart-contract: [HelloWorld.sol](src/main/resources/contracts/hello_world.sol) using Solidity language <br>
 2) Compile the contract using the command: <br>
-solc -o src/main/resources/contracts --abi --bin src/main/resources/contracts/HelloWorld.sol <br>
+solc -o src/main/resources/contracts --abi --bin src/main/resources/contracts/hello_world.sol <br>
 For that first install Solidity on your system
 
 Change the values of the [web3jdemo.properties](src/main/resources/web3jdemo.properties):
